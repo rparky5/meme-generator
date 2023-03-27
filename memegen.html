@@ -5,8 +5,55 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meme Generator!</title>
+  <link rel="stylesheet" href="./style.css" type="text/css">
 </head>
 <body>
-
+  <table>
+    <thead>
+      <tr>
+        <th>
+          <h1>Your Meme Generator!</h1>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <h4>Fill out the form to create your memes below!</h4>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr id="top">
+        <td>
+          <label for="top-text">Top Text:</label>
+        </td>
+        <td>
+          <input type="text" id="top-text" name="top-text">
+        </td>
+      </tr>
+      <tr id="bottom">
+        <td>
+          <label for="bottom-text">Bottom Text:</label>
+        </td>
+        <td>
+          <input type="text" id="bottom-text" name="bottom-text">
+        </td>
+      </tr>
+      <tr id="image">
+        <td>
+          <label for="image-url">Image URL:</label>
+        </td>
+        <td>
+          <input type="text" id="image-url" name="image-url">
+        </td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>
+          <input type="submit" value="Create!">
+        </td>
+      </tr>
+    </tfoot>
+  </table>
 </body>
 </html>
