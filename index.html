@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meme Generator!</title>
-  <link rel="stylesheet" href="/meme-generator/style.css" type="text/css">
-</head>
-<body>
-  <form id="memegen">
-    <h1>Your Meme Generator!</h1>
-    <h4>Fill out the form to create your memes below!</h4>
-    <label for="top-text">Text on Top:</label>
-    <input type="text" id="top-text" name="top-text" class="textbox">
-    <br>
-    <label for="bottom-text">Text on Bottom:</label>
-    <input type="text" id="bottom-text" name="bottom-text" class="textbox">
-    <br>
-    <label for="image-url">Image URL:</label>
-    <input type="text" id="image-url" name="image-url" class="textbox">
-    <br>
-    <input type="submit" id="create" value="Create!">
-  </form>
-  <h2>Your Memes:</h2>
-  <div id="memes">
-  </div>
-  <script src="/meme-generator/script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator!</title>
+    <link rel="stylesheet" href="/meme-generator/style.css" type="text/css">
+  </head>
+  <body>
+    <form id="memegen">
+      <h1>Your Meme Generator!</h1>
+      <h4>Fill out the form to create your memes below!</h4>
+      <label for="top-text">Text on Top:</label>
+      <input type="text" id="top-text" name="top-text" class="textbox">
+      <br>
+      <label for="bottom-text">Text on Bottom:</label>
+      <input type="text" id="bottom-text" name="bottom-text" class="textbox">
+      <br>
+      <label for="image-url">Image URL:</label>
+      <input type="text" id="image-url" name="image-url" class="textbox" required>
+      <br>
+      <input type="submit" id="create" value="Create!">
+    </form>
+    <h2>Your Memes:</h2>
+    <h4>(click on the meme you made to delete it!)</h4>
+    <div id="meme-container">
+    </div>
+    <script src="/meme-generator/script.js"></script>
+  </body>
 </html>

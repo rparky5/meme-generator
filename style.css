@@ -12,10 +12,12 @@ h1 {
 h2 {
     font-size: 45px;
     margin: 20px;
+    margin-bottom: 5px;
 }
 
 h4 {
     font-size: 24px;
+    margin-top: 10px;
 }
 
 label {
@@ -42,10 +44,27 @@ label {
     font-size: 14px;
 }
 
-#memes {
+.imgContainer {
     position: relative;
-    width: 100px auto;
-    height: 50vh;
-    top: 0;
-    bottom: 0;
+
+}
+
+.topText, .botText {
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    -webkit-text-stroke: 1.5px black;
+    text-transform: uppercase;
+    font-family: Impact, sans-serif;
+}
+
+.topText {
+    top: 1%;
+}
+
+.botText {
+    bottom: 1%;
 }
