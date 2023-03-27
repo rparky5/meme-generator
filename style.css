@@ -1,0 +1,51 @@
+body {
+    background-color: #90B5BF;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+}
+
+h2 {
+    font-size: 45px;
+    margin: 20px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+label {
+    display: inline-block;
+    padding: 10px;
+    width: 200px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.textbox {
+    width: 1000px;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: 0;
+    height: 20px;
+    font-size: 100%;
+}
+
+#create {
+    margin-top: 10px;
+    width: 60px;
+    height: 30px;
+    font-size: 14px;
+}
+
+#memes {
+    position: relative;
+    width: 100px auto;
+    height: 50vh;
+    top: 0;
+    bottom: 0;
+}
